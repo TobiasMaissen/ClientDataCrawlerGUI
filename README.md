@@ -12,7 +12,8 @@
 
 ## Streamlined Stakeholder Search
 
-- **Efficient Searching**: You can search for tasks associated with specific stakeholders, such as salespeople responsible for multiple customers. For example, if you search for "Tobias," you'll instantly find all tasks from every company related to Tobias, saving you valuable time and effort. When searching for a file or script and you're unsure of the exact name, simply use the freetext search feature. For example, type something like: company_xy*revenue*sql and it will search for all SQL files that contain 'revenue' and the company name.
+- **Efficient Searching**: You can search for tasks associated with specific stakeholders, such as salespeople responsible for multiple customers. For example, if you search for "Tobias," you'll instantly find all tasks from every company related to Tobias, saving you valuable time and effort. When searching for a file or script and you're unsure of the exact name, simply use the freetext search feature. For example, type something like: `company_xy*revenue*sql`
+ and it will search for all SQL files that contain 'revenue' and the company name.
 
 ## GUI
 
