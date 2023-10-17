@@ -62,3 +62,44 @@ In the `automate.bat` file, there are specific steps you might need to customize
 #### Step 3: Rename and move the .exe file
 
 - Customize the path where the renamed `.exe` file should be moved. The `D:\RS\00_Test\adhoc_suche_%timestamp%.exe` path is just an example. Replace it with your desired destination folder.
+
+## Showcase for better understanding
+
+#### GUI 
+On the left you can search for a person like tobias and find everyting related OR on the right the freetext search for files
+I tried to show a picture but after I had censored everything with a black pen in my snipping... it looked terrible and didn't help either 
+
+#### JSON looks like this
+So within one person you will find every company assigned to it (if in each task-folder a .name file is)
+
+```json
+{
+  "sales-person tobias maissen": {
+    "Company_1": {
+      "Revenue_YTD_2023": {
+        "XLSX File": "",
+        "SQL File": "",
+        "PowerPoint": "",
+        "tobias_maissen.name": "this is the name file"
+      },
+      "ProductSummary": {
+        "XLSX File": "",
+        "2 SQL File": "",
+        "tobias_maissen.name": "this is the name file"
+      }
+    },
+    "Company_8": {
+      "Salesperformance_2020_2023": {
+        "XLSX File": "",
+        "SQL File": "",
+        "PowerPoint": "",
+        "tobias_maissen.name": "this is the name file"
+      },
+      "Product_XY_Analysis": {
+        "XLSX File": "",
+        "2 SQL File": "",
+        "tobias_maissen.name": "this is the name file"
+      }
+    }
+  }
+}
