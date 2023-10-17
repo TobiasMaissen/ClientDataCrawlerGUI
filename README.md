@@ -29,7 +29,7 @@
 
 2. **Name Files**: In each task folder, include a name file that specifies the stakeholder responsible for the task.
 
-3. **Run Automation**: Execute the `automate.bat` file to keep your application current and up-to-date.
+3. **Run Automation**: Execute the `automate.bat` file to keep your application current and up-to-date. Check the `automate.bat` file to understand which script is when executed. You need all the provided files in the same folder as well your company logo. Everything else will do the .bat file for you
 
 4. **Search Stakeholders**: Use the GUI to search for tasks and data associated with specific stakeholders, making data retrieval effortless.
 
